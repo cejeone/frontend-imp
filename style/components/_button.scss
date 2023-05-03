@@ -1,0 +1,16 @@
+.btn-custom {
+     background-color: var(--primary-color);
+     padding: 10px 20px;
+     color: var(--font-white);
+     font-size: 14px;
+     font-weight: 500;
+     border-radius: 10px;
+     cursor: pointer;
+     text-decoration: none;
+     height: max-content;
+     width: max-content;
+
+     &:hover {
+          background-color: #e44c10;
+     }
+}

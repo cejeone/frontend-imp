@@ -1,0 +1,67 @@
+//services
+.bg-breadcrumb {
+     background: #f1f0f0;
+     // background-image: url("https://images-ext-1.discordapp.net/external/xI9aUOdqSE2KrWmG5cx6RLiqqmQ_MaFYFh7IolbAQAU/https/www.inovamap.com/wp-content/uploads/2020/04/aerial-aerial-shot-agriculture-art-color-country-1548983-pxhere-resamp.jpg?width=1203&height=580");
+     background-image: url("/assets/img/mapline.svg");
+     background-size: cover;
+     background-blend-mode: overlay;
+     background-attachment: fixed;
+
+     .header-breadcrumb {
+          padding: 40px 0;
+     }
+
+     .breadcrumb {
+          align-items: center;
+          font-size: 12px;
+
+          .home {
+               margin-right: 10px;
+               color: var(--primary-color);
+          }
+
+          .breadcrumb-item {
+               text-decoration: none;
+
+               a {
+                    text-decoration: none;
+                    color: var(--font-black);
+
+                    &:hover {
+                         color: var(--primary-color);
+                    }
+               }
+          }
+     }
+}
+
+.col-service {
+     display: flex;
+     align-self: center;
+}
+
+.item-service {
+     .title {
+          span {
+               font-weight: 600;
+               font-size: 24px;
+               color: var(--primary-color);
+          }
+     }
+
+     .desc {
+          span {
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 16px;
+          }
+     }
+}
+
+.service-include {
+     .item {
+          padding: 20px;
+          background: var(--background-secondary);
+          border-radius: 10px;
+     }
+}

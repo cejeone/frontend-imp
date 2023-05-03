@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Inovamap</title>
+
+          <!-- stylesheet -->
+          <link rel="stylesheet" href="style/main.css" />
+          <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css" />
+          <link rel="stylesheet" href="vendor/owlcarousel/css/owl.theme.default.min.css" />
+          <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     </head>
+     <body>
+          <header class="top-nav">
+               <div class="container d-flex justify-content-between align-content-center">
+                    <div class="kontak">
+                         <span class=""><i class="fa-regular fa-envelope"></i> info@inovamap.com</span>
+                         <span class="px-5"><i class="fa-solid fa-location-dot"></i> Graha Kapital Building 1, Jalan Kemang Raya No. 4 Jakarta 12730 </span>
+                    </div>
+                    <div class="sosmed-login">
+                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+               </div>
+          </header>
+
+          <nav class="navbar navbar-expand-lg navbar-imp blur-background" id="navbar-desktop" aria-label="Offcanvas navbar large">
+               <div class="container">
+                    <a class="navbar-brand" href="#"> <img src="/assets/img/logo-imp.svg" width="100%" class="d-inline-block align-top" alt="logo inovamap" /></a>
+                    <button
+                         class="navbar-toggler"
+                         type="button"
+                         data-bs-toggle="offcanvas"
+                         data-bs-target="#offcanvasNavbar2"
+                         aria-controls="offcanvasNavbar2"
+                         aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                         <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Inovamap</h5>
+                              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                         </div>
+                         <div class="offcanvas-body sidenav">
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
+                                   <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                   </li>
+                                   <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+                                        <ul class="dropdown-menu">
+                                             <div class="row">
+                                                  <div class="col-sm-12 col-lg-7 py-4 px-3">
+                                                       <span class="title mt-5">Our Services</span>
+                                                       <li>
+                                                            <hr class="dropdown-divider" />
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="service_survey.html"><i class="fa-solid fa-map-location-dot"></i> Survey and Mapping</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="service_gis.html"
+                                                                 ><i class="fa-solid fa-display"></i> Geographical Information System (GIS)</a
+                                                            >
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="service_app.html"><i class="fa-solid fa-laptop-code"></i> Application Development</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="service_support.html"><i class="fa-solid fa-chalkboard-user"></i>Training and Support</a>
+                                                       </li>
+                                                  </div>
+                                                  <div class="col-sm-12 col-lg-5 py-4 px-3 bg-grey">
+                                                       <img src="/assets/img/dropdown.png" alt="" width="100%" />
+                                                       <span class="desc"
+                                                            >Lorem ipsum dolor sit amet consectetur. Vulputate id in mattis viverra suscipit faucibus tincidunt dui.
+                                                       </span>
+                                                  </div>
+                                             </div>
+                                        </ul>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="/produk.html">Product</a>
+                                   </li>
+                                   <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                        <ul class="dropdown-menu">
+                                             <div class="row">
+                                                  <div class="col-sm-12 col-lg-5 py-4 px-3 bg-grey">
+                                                       <img src="/assets/img/dropdown.png" alt="" width="100%" />
+                                                       <span class="desc"
+                                                            >Lorem ipsum dolor sit amet consectetur. Vulputate id in mattis viverra suscipit faucibus tincidunt dui.
+                                                       </span>
+                                                  </div>
+                                                  <div class="col-sm-12 col-lg-7 py-4 px-3">
+                                                       <span class="title mt-5">About Us</span>
+                                                       <li>
+                                                            <hr class="dropdown-divider" />
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="about.html"><i class="fa-solid fa-building"></i> About Company</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="blog.html"><i class="fa-brands fa-blogger-b"></i> Blog</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="news.html"><i class="fa-solid fa-newspaper"></i> News</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-briefcase"></i> Career</a>
+                                                       </li>
+                                                  </div>
+                                             </div>
+                                        </ul>
+                                   </li>
+                                   <a href="/kontak.html" class="btn-custom kontak">Contact</a>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+
+          <section class="header-hero">
+               <!-- <div class="head-title">
+                    <span>Discover The Services or Products We Offer</span>
+               </div>
+               <div class="slider">
+                    <div class="owl-carousel owl-theme">
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                         <div class="item"><img src="/assets/img/c1.png" alt="" /></div>
+                    </div>
+               </div> -->
+          </section>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+               </div>
+               <div class="carousel-inner">
+                    <div class="carousel-item">
+                         <img src="/assets/img/c1.png" alt="" width="100%" />
+                         <div class="container">
+                              <div class="carousel-caption text-start">
+                                   <h1>Example headline.</h1>
+                                   <p>Some representative placeholder content for the first slide of the carousel.</p>
+                                   <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="carousel-item active">
+                         <img src="/assets/img/c1.png" alt="" width="100%" />
+                         <div class="container">
+                              <div class="carousel-caption">
+                                   <h1>Another example headline.</h1>
+                                   <p>Some representative placeholder content for the second slide of the carousel.</p>
+                                   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="carousel-item">
+                         <img src="/assets/img/c1.png" alt="" width="100%" />
+                         <div class="container">
+                              <div class="carousel-caption text-end">
+                                   <h1>One more for good measure.</h1>
+                                   <p>Some representative placeholder content for the third slide of this carousel.</p>
+                                   <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+               </button>
+          </div>
+
+          <!-- <section class="slide">
+               <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+                    </div>
+                    <div class="carousel-inner">
+                         <div class="carousel-item active">
+                              <img src="/assets/img/c1.png" class="d-block w-100" alt="" />
+                              <div class="container">
+                                   <div class="carousel-caption text-start">
+                                        <h1>Example headline.</h1>
+                                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="carousel-item">
+                              <img src="/assets/img/c1.png" class="d-block w-100" alt="" />
+                              <div class="container">
+                                   <div class="carousel-caption">
+                                        <h1>Another example headline.</h1>
+                                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="carousel-item">
+                              <img src="/assets/img/c1.png" class="d-block w-100" alt="" />
+                              <div class="container">
+                                   <div class="carousel-caption text-end">
+                                        <h1>One more for good measure.</h1>
+                                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                    </button>
+               </div>
+          </section> -->
+          <section class="about">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12 col-md-6 col-lg-6">
+                              <div class="about-img">
+                                   <div class="img-team">
+                                        <img src="assets/img/team2.jpg" alt="" />
+                                   </div>
+                                   <div class="experience" data-aos="fade-right">
+                                        <span class="years">10+ </span>
+                                        <span> years experienced</span>
+                                   </div>
+                                   <div class="play-video" data-aos="fade-in">
+                                        <div class="btn-play">
+                                             <i class="fa-solid fa-play"></i>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-sm-12 col-md-6 col-lg-6 about-landing">
+                              <div class="about-desc">
+                                   <div class="title-vtol">
+                                        <span class="imp-pill">About Inovamap</span>
+                                        <img src="assets/img/vtol.png" alt="vtol" data-aos="fade-right" />
+                                   </div>
+                                   <div class="circle"></div>
+
+                                   <div class="title hoverDiv d-inline-block">
+                                        <span>Geospatial Technology-based Company</span>
+                                   </div>
+                                   <div class="desc mt-4" data-aos="fade-in">
+                                        <span
+                                             >In effort to improve the quality of service to clients, we always improve our quality by following the latest technological
+                                             developments. Both in the fields of photogrammetry, GIS, and remote sensing technology and support from companies and research
+                                             institutions in geospatial technology add value to our company to be able to provide the best results to clients
+                                        </span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section class="service">
+               <div class="container">
+                    <div class="title-service d-flex flex-column align-items-center mb-5" data-aos="fade-up">
+                         <span class="text-center">Services and Product</span>
+                         <div class="garis mt-4"></div>
+                    </div>
+                    <div class="list-service mt-5 mb-5 py-3">
+                         <div class="row d-flex justify-content-center mt-4 mb-4">
+                              <div class="col-sm-6 col-md-6 col-lg-2 py-2" data-aos="fade-up" data-aos-duration="1000">
+                                   <a href="" class="item-service">
+                                        <div class="box">
+                                             <div class="item-box mt-4 mb-4">
+                                                  <i class="fa-solid fa-map-location-dot"></i>
+                                                  <span class="mt-5">Survey and Mapping</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-2 py-2" data-aos="fade-up" data-aos-duration="1000">
+                                   <a href="" class="item-service">
+                                        <div class="box">
+                                             <div class="item-box mt-4 mb-4">
+                                                  <i class="fa-solid fa-display"></i>
+                                                  <span class="mt-5 text-center">Geographical Information System</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-2 py-2" data-aos="fade-up" data-aos-duration="1000">
+                                   <a href="" class="item-service">
+                                        <div class="box">
+                                             <div class="item-box mt-4 mb-4">
+                                                  <i class="fa-solid fa-laptop-code"></i>
+                                                  <span class="mt-5">Application Development</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-2 py-2" data-aos="fade-up" data-aos-duration="1000">
+                                   <a href="" class="item-service">
+                                        <div class="box">
+                                             <div class="item-box mt-4 mb-4">
+                                                  <i class="fa-solid fa-chalkboard-user"></i>
+                                                  <span class="mt-5">Training and Support</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-2 py-2" data-aos="fade-up" data-aos-duration="1000">
+                                   <a href="" class="item-service">
+                                        <div class="box">
+                                             <div class="item-box mt-4 mb-4">
+                                                  <i class="fa-solid fa-box-archive"></i>
+                                                  <span class="mt-5">Product Procurement</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <!-- <section class="produk">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12 col-md-3 col-lg-3">
+                              <div class="img-text">
+                                   <span class="mb-5">Belum menemukan yang anda Cari ?</span>
+                                   <div class="btn btn-primary">Kontak Kami</div>
+                              </div>
+                         </div>
+                         <div class="col-sm-12 col-md-9 col-lg-9">
+                              <div class="item-slideshow d-flex">
+                                   <a href="#" class="link-produk">
+                                        <div class="card-slim d-flex">
+                                             <img src="/assets/img/agisoft.png" alt="" />
+                                             <div class="desc d-flex flex-column justify-content-center">
+                                                  <span class="tag mb-1">Software</span>
+                                                  <span class="text">Agisoft Metashape Pro</span>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section> -->
+
+          <section class="produk mt-5 mb-5">
+               <div class="container">
+                    <header class="front-text-group text-center">
+                         <span class="imp-pill">Inovamap</span>
+                         <h2 class="header-primary mb-4 mt-4">Our Product</h2>
+                    </header>
+               </div>
+               <div class="produk-slideshow toRight mt-5">
+                    <div id="toolsRow1">
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/arcgis.png" alt="arcgis" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">ArcGIS</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/arcgis.png" alt="arcgis" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">ArcGIS</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/arcgis.png" alt="arcgis" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">ArcGIS</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+                    <div id="toolsRow1">
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="produk-slideshow mb-5 mt-4">
+                    <div id="toolsRow2">
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+                    <div id="toolsRow2">
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div class="cardSlim">
+                              <a href="#">
+                                   <img src="assets/img/agisoft.png" alt="agisoft" />
+                              </a>
+                              <div>
+                                   <a href="#">
+                                        <h5 class="title">Agisoft Metashape</h5>
+                                        <p class="subtitle">Software</p>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="container" data-aos="fade-up">
+                    <div class="banner-produk">
+                         <span class="mb-5">Haven't found what you're looking for ? </span>
+                         <a class="btn-custom kontak">Contact Us</a>
+                    </div>
+               </div>
+          </section>
+
+          <section class="blog-berita">
+               <div class="title"></div>
+          </section>
+
+          <footer class="footer">
+               <section class="main-footer">
+                    <div class="container">
+                         <div class="row mt-5">
+                              <div class="col-sm-12 col-md-12 col-lg-4">
+                                   <div class="logo">
+                                        <img src="/assets/img/logo-imp.svg" alt="logo inovamap" />
+                                   </div>
+                                   <div class="item mt-3">
+                                        <span>PT. Inovasi Mandiri Pratama (Inovamap) is a geospatial technology-based company</span>
+                                        <div class="kontak">
+                                             <ul>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-location-dot"></i>
+                                                       </div>
+                                                       <span>Graha Kapital Building 1, Jalan Kemang Raya No. 4 Jakarta 12730</span>
+                                                  </li>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                       </div>
+                                                       <span>info@inovamap.com</span>
+                                                  </li>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-phone"></i>
+                                                       </div>
+                                                       <span>+62 21 7198717 / +62 87821332007</span>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-2">
+                                   <div class="title">
+                                        <span>Company</span>
+                                   </div>
+                                   <div class="item">
+                                        <ul>
+                                             <li class="item-footer">
+                                                  <a href="/about.html">About Us</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/kontak.html">Contact</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/about.html#partner">Partner</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/produk.html">Product</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-2">
+                                   <div class="title">
+                                        <span>Other</span>
+                                   </div>
+                                   <div class="item">
+                                        <ul>
+                                             <li class="item-footer">
+                                                  <a href="/blog.html">Blog</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/news.html">News</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="#">FAQ</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-4">
+                                   <div class="title">
+                                        <span>Newslatter</span>
+                                   </div>
+                                   <div class="item">
+                                        <span>Subscribe to our weekly Newsletter and receive updates by email.</span>
+
+                                        <div class="form-newsletter mt-4">
+                                             <input class="form-control form-custom" type="text" placeholder="email" aria-label="default input example" />
+                                        </div>
+
+                                        <div class="sosmed mt-4">
+                                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="bottom-footer">
+                    <div class="container">
+                         <div class="row">
+                              <div class="col-sm-12 col-md-6 col-lg-6 copyright">
+                                   <span>All Right Reserved ©inovamap 2012 - 2023</span>
+                              </div>
+                              <div class="col-sm-12 col-md-6 col-lg-6 term d-flex justify-content-end">
+                                   <a href="#">Term & Conditions</a>
+                                   <a href="#">Privacy & Policy</a>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </footer>
+
+          <!-- script -->
+          <script src="vendor/jquery/jquery-3.6.4.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script src="script/navbar.js"></script>
+          <script src="script/main.js"></script>
+     </body>
+</html>

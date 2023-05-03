@@ -1,0 +1,164 @@
+.top-nav {
+     background-color: var(--secondary-color);
+     padding: 5px;
+
+     .kontak {
+          span {
+               color: var(--font-white);
+               font-weight: 400;
+               font-size: 10px;
+
+               i {
+                    margin-right: 7px;
+                    font-size: 14px;
+                    color: var(--primary-color);
+
+                    &:before {
+                         position: relative;
+                         top: 2px;
+                    }
+               }
+          }
+     }
+
+     .sosmed-login {
+          a {
+               color: var(--font-white);
+
+               i {
+                    margin-left: 5px;
+               }
+          }
+     }
+
+     @include media-breakpoint-down(md) {
+          display: none;
+     }
+}
+
+.blur-background {
+     backdrop-filter: blur(10px) saturate(150%);
+     -webkit-backdrop-filter: blur(10px) saturate(150%);
+     background-color: var(--header-background, hsla(0, 0%, 100%, 0.8)) !important;
+     transition: background-color 0.3s linear;
+}
+
+.navbar-imp {
+     z-index: 4;
+     padding: 5px 0;
+     // padding: 10px 15px;
+
+     .offcanvas.show {
+          .bg-grey {
+               display: none;
+          }
+
+          .offcanvas-body.sidenav {
+               // align-self: center;
+               .nav-item {
+                    margin: 10px 0;
+               }
+          }
+     }
+
+     .nav-item {
+          .nav-link {
+               font-weight: 400;
+               font-size: 14px;
+               padding: 8px 15px;
+               display: inline-block;
+               vertical-align: middle;
+               -webkit-transform: perspective(1px) translateZ(0);
+               transform: perspective(1px) translateZ(0);
+               box-shadow: 0 0 1px transparent;
+               position: relative;
+               overflow: hidden;
+
+               &:before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 50%;
+                    right: 50%;
+                    bottom: 0;
+                    background: var(--primary-color);
+                    height: 4px;
+                    border-radius: 10px;
+                    -webkit-transition-property: left, right;
+                    transition-property: left, right;
+                    -webkit-transition-duration: 0.3s;
+                    transition-duration: 0.3s;
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+               }
+               &:hover:before,
+               &:focus:before,
+               &.active:before {
+                    left: 35%;
+                    right: 35%;
+               }
+          }
+
+          &.dropdown {
+               @include media-breakpoint-up(lg) {
+                    .dropdown-menu {
+                         padding: 0;
+                         width: max-content;
+                         max-width: 600px;
+                         top: 60px;
+                         right: 0;
+                         left: auto;
+                         border: none;
+                         border-radius: 7px;
+                         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+                         .desc {
+                              font-weight: 400;
+                              font-size: 12px;
+                         }
+
+                         .title {
+                              font-weight: 500;
+                              font-size: 14px;
+                         }
+
+                         .bg-grey {
+                              backdrop-filter: blur(10px) saturate(150%);
+                              -webkit-backdrop-filter: blur(10px) saturate(150%);
+                              background: #f8f8f8;
+                              border-radius: 7px;
+                         }
+
+                         li {
+                              padding: 5px;
+                              .dropdown-item {
+                                   font-weight: 400;
+                                   font-size: 12px;
+                                   padding: 2px 10px 2px 0;
+                                   transition: all 0.3s ease-out;
+
+                                   i {
+                                        background-color: var(--primary-color);
+                                        color: var(--font-white);
+                                        padding: 6px 5px;
+                                        border-radius: 5px;
+                                        margin-right: 10px;
+                                   }
+
+                                   &:hover {
+                                        font-weight: 500;
+                                        margin-left: 10px;
+                                        border-radius: 8px;
+                                        transition: all 0.3s ease-out;
+                                   }
+
+                                   &:active {
+                                        background-color: var(--primary-color);
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

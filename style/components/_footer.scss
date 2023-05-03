@@ -1,0 +1,94 @@
+footer {
+     //main footer
+     .main-footer {
+          width: 100%;
+          padding: 30px;
+          margin: 0;
+          background-color: var(--secondary-color);
+
+          @mixin font {
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 21px;
+               color: var(--font-white);
+          }
+
+          span {
+               @include font;
+          }
+
+          .title {
+               span {
+                    font-size: 16px;
+                    font-weight: 600;
+               }
+          }
+
+          .item {
+               margin-top: 20px;
+
+               .kontak {
+                    margin-top: 20px;
+               }
+
+               ul {
+                    list-style: none;
+                    padding: 0;
+                    .item-footer {
+                         display: flex;
+                         padding: 10px 0;
+
+                         .icon {
+                              margin-right: 10px;
+
+                              i {
+                                   font-size: 15px;
+                                   color: var(--font-white);
+                              }
+                         }
+
+                         a {
+                              @include font;
+                              text-decoration: none;
+                         }
+                    }
+               }
+
+               .sosmed {
+                    a {
+                         font-size: 25px;
+                         color: var(--font-white);
+                         text-decoration: none;
+                         padding-right: 7px;
+                    }
+               }
+          }
+     }
+
+     //bottom footer
+     .bottom-footer {
+          width: 100%;
+          margin: 0;
+          background-color: var(--footer-color);
+
+          @mixin font {
+               font-size: 12px;
+               font-weight: 500;
+               color: var(--font-white);
+          }
+
+          .copyright {
+               span {
+                    @include font;
+               }
+          }
+
+          .term {
+               a {
+                    @include font;
+                    text-decoration: none;
+                    padding: 0 10px;
+               }
+          }
+     }
+}

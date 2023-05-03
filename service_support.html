@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Inovamap</title>
+
+          <!-- stylesheet -->
+          <link rel="stylesheet" href="style/main.css" />
+          <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css" />
+          <link rel="stylesheet" href="vendor/owlcarousel/css/owl.theme.default.min.css" />
+          <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     </head>
+     <body>
+          <header class="top-nav">
+               <div class="container d-flex justify-content-between align-content-center">
+                    <div class="kontak">
+                         <span class=""><i class="fa-regular fa-envelope"></i> info@inovamap.com</span>
+                         <span class="px-5"><i class="fa-solid fa-location-dot"></i> Graha Kapital Building 1, Jalan Kemang Raya No. 4 Jakarta 12730 </span>
+                    </div>
+                    <div class="sosmed-login">
+                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+               </div>
+          </header>
+
+          <nav class="navbar navbar-expand-lg navbar-imp blur-background" id="navbar-desktop" aria-label="Offcanvas navbar large">
+               <div class="container">
+                    <a class="navbar-brand" href="#"> <img src="/assets/img/logo-imp.svg" width="100%" class="d-inline-block align-top" alt="logo inovamap" /></a>
+                    <button
+                         class="navbar-toggler"
+                         type="button"
+                         data-bs-toggle="offcanvas"
+                         data-bs-target="#offcanvasNavbar2"
+                         aria-controls="offcanvasNavbar2"
+                         aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                         <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Inovamap</h5>
+                              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                         </div>
+                         <div class="offcanvas-body">
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                                   </li>
+                                   <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+                                        <ul class="dropdown-menu">
+                                             <div class="row">
+                                                  <div class="col-sm-12 col-lg-7 py-4 px-3">
+                                                       <span class="title mt-5">Our Services</span>
+                                                       <li>
+                                                            <hr class="dropdown-divider" />
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-map-location-dot"></i> Survey and Mapping</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-display"></i> Geographical Information System (GIS)</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-laptop-code"></i> Application Development</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-chalkboard-user"></i>Training and Support</a>
+                                                       </li>
+                                                  </div>
+                                                  <div class="col-sm-12 col-lg-5 py-4 px-3 bg-grey">
+                                                       <img src="/assets/img/dropdown.png" alt="" width="100%" />
+                                                       <span class="desc"
+                                                            >Lorem ipsum dolor sit amet consectetur. Vulputate id in mattis viverra suscipit faucibus tincidunt dui.
+                                                       </span>
+                                                  </div>
+                                             </div>
+                                        </ul>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="/produk.html">Product</a>
+                                   </li>
+                                   <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About Us </a>
+                                        <ul class="dropdown-menu">
+                                             <div class="row">
+                                                  <div class="col-sm-12 col-lg-5 py-4 px-3 bg-grey">
+                                                       <img src="/assets/img/dropdown.png" alt="" width="100%" />
+                                                       <span class="desc"
+                                                            >Lorem ipsum dolor sit amet consectetur. Vulputate id in mattis viverra suscipit faucibus tincidunt dui.
+                                                       </span>
+                                                  </div>
+                                                  <div class="col-sm-12 col-lg-7 py-4 px-3">
+                                                       <span class="title mt-5">About Us</span>
+                                                       <li>
+                                                            <hr class="dropdown-divider" />
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="/about.html"><i class="fa-solid fa-building"></i> About Company</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-brands fa-blogger-b"></i> Blog</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-newspaper"></i> News</a>
+                                                       </li>
+                                                       <li>
+                                                            <a class="dropdown-item" href="#"><i class="fa-solid fa-briefcase"></i> Career</a>
+                                                       </li>
+                                                  </div>
+                                             </div>
+                                        </ul>
+                                   </li>
+                              </ul>
+
+                              <a href="/kontak.html" class="btn-custom kontak">Contact</a>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+
+          <div class="page-content">
+               <!-- <div class="bg-breadcrumb">
+                    <div class="container">
+                         <div class="header-breadcrumb">
+                              <h3>Survey and Mapping</h3>
+                              <nav
+                                   style="
+                                        --bs-breadcrumb-divider: url(
+                                             &#34;data:image/svg + xml,
+                                             %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='%236c757d'/%3E%3C/svg%3E&#34;
+                                        );
+                                   "
+                                   aria-label="breadcrumb">
+                                   <ol class="breadcrumb">
+                                        <i class="fa-solid fa-house home"></i>
+                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Services</li>
+                                   </ol>
+                              </nav>
+                         </div>
+                    </div>
+               </div> -->
+
+               <section class="survey-mapping mt-5 mb-5">
+                    <div class="container">
+                         <div class="row">
+                              <div class="col-sm-12 col-md-12 col-lg-6">
+                                   <div class="img-service text-center">
+                                        <img src="assets/img/solved.svg" alt="" />
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-6 col-service">
+                                   <div class="item-service">
+                                        <div class="title mt-4 mb-4">
+                                             <span>Training and Support</span>
+                                        </div>
+                                        <div class="desc mt-4">
+                                             <span>We provide support for several client needs related to the solutions or products we offer. </span>
+                                        </div>
+                                        <div class="btn-kontak mt-5">
+                                             <a href="kontak.html" type="button" class="btn-custom kontak">Contact Us</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="owl-carousel owl-theme mt-5 mb-5 service-include">
+                              <div class="item"><span>Software/Hardware Installation and Configuration </span></div>
+                              <div class="item"><span>Training and Knowledge Transfer </span></div>
+                              <div class="item"><span>Technology Update </span></div>
+                              <div class="item"><span>Troubleshoot </span></div>
+                         </div>
+                    </div>
+               </section>
+          </div>
+
+          <footer class="footer">
+               <section class="main-footer">
+                    <div class="container">
+                         <div class="row mt-5">
+                              <div class="col-sm-12 col-md-12 col-lg-4">
+                                   <div class="logo">
+                                        <img src="/assets/img/logo-imp.svg" alt="logo inovamap" />
+                                   </div>
+                                   <div class="item mt-3">
+                                        <span>PT. Inovasi Mandiri Pratama (Inovamap) is a geospatial technology-based company</span>
+                                        <div class="kontak">
+                                             <ul>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-location-dot"></i>
+                                                       </div>
+                                                       <span>Graha Kapital Building 1, Jalan Kemang Raya No. 4 Jakarta 12730</span>
+                                                  </li>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                       </div>
+                                                       <span>info@inovamap.com</span>
+                                                  </li>
+                                                  <li class="item-footer">
+                                                       <div class="icon">
+                                                            <i class="fa-solid fa-phone"></i>
+                                                       </div>
+                                                       <span>+62 21 7198717 / +62 87821332007</span>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-2">
+                                   <div class="title">
+                                        <span>Company</span>
+                                   </div>
+                                   <div class="item">
+                                        <ul>
+                                             <li class="item-footer">
+                                                  <a href="/about.html">About Us</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/kontak.html">Contact</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/about.html#partner">Partner</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/produk.html">Product</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-2">
+                                   <div class="title">
+                                        <span>Other</span>
+                                   </div>
+                                   <div class="item">
+                                        <ul>
+                                             <li class="item-footer">
+                                                  <a href="/blog.html">Blog</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="/news.html">News</a>
+                                             </li>
+                                             <li class="item-footer">
+                                                  <a href="#">FAQ</a>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <div class="col-sm-12 col-md-12 col-lg-4">
+                                   <div class="title">
+                                        <span>Newslatter</span>
+                                   </div>
+                                   <div class="item">
+                                        <span>Subscribe to our weekly Newsletter and receive updates by email.</span>
+
+                                        <div class="form-newsletter mt-4">
+                                             <input class="form-control form-custom" type="text" placeholder="email" aria-label="default input example" />
+                                        </div>
+
+                                        <div class="sosmed mt-4">
+                                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="bottom-footer">
+                    <div class="container">
+                         <div class="row">
+                              <div class="col-sm-12 col-md-6 col-lg-6 copyright">
+                                   <span>All Right Reserved ©inovamap 2012 - 2023</span>
+                              </div>
+                              <div class="col-sm-12 col-md-6 col-lg-6 term d-flex justify-content-end">
+                                   <a href="#">Term & Conditions</a>
+                                   <a href="#">Privacy & Policy</a>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </footer>
+
+          <!-- script -->
+          <script src="vendor/jquery/jquery-3.6.4.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script src="script/navbar.js"></script>
+          <script src="script/main.js"></script>
+          <script>
+               $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    autoWidth: true,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    dots: false,
+                    margin: 10,
+                    responsive: {
+                         0: {
+                              items: 1,
+                         },
+                         600: {
+                              items: 3,
+                         },
+                         1000: {
+                              items: 5,
+                         },
+                    },
+               });
+          </script>
+     </body>
+</html>

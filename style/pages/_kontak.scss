@@ -1,0 +1,52 @@
+//kontak {
+
+.box-kontak {
+     background: linear-gradient(0deg, rgba(241, 93, 34, 0.7), rgba(241, 93, 34, 0.7)), url("/assets/img/team-kontak.png");
+     border-radius: 15px;
+
+     .sub-kontak {
+          padding: 90px 80px;
+
+          @include media-breakpoint-down(lg) {
+               padding: 70px 50px;
+          }
+
+          .item {
+               margin: 40px 0;
+
+               .title {
+                    span {
+                         font-weight: 700;
+                         font-size: 18px;
+                         color: var(--font-white);
+                    }
+               }
+               .desc {
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                         font-weight: 500;
+                         font-size: 14px;
+                         line-height: 174.4%;
+                         color: var(--font-white);
+                    }
+               }
+          }
+     }
+}
+
+.form-head {
+     margin-bottom: 50px;
+     .title {
+          span {
+               font-weight: 600;
+               font-size: 24px;
+          }
+     }
+     .garis {
+          background-color: var(--primary-color);
+          height: 10px;
+          border-radius: 5px;
+          width: 100px;
+     }
+}

@@ -1,0 +1,34 @@
+//form-custom
+
+.label-custom {
+     font-weight: 400;
+     font-size: 14px;
+}
+.form-custom {
+     border-radius: 7px;
+     border: 1px solid #b4b4b4;
+     font-size: 14px;
+     transition: all 0.2s ease-out;
+
+     &:focus {
+          border: 1px solid var(--primary-color);
+          box-shadow: none;
+          transition: all 0.2s ease-out;
+     }
+}
+
+.form-custom-select {
+     width: max-content;
+     height: max-content;
+     border-radius: 7px;
+     border-radius: 7px;
+     border: 1px solid #b4b4b4;
+     font-size: 14px;
+     transition: all 0.2s ease-out;
+
+     &:focus {
+          border: 1px solid var(--primary-color);
+          box-shadow: none;
+          transition: all 0.2s ease-out;
+     }
+}

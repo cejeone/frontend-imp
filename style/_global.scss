@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+     --primary-color: #f15d22;
+     --secondary-color: #171b2a;
+
+     --background-primary: #fff;
+     --background-secondary: #eeeeee;
+
+     --font-white: #fff;
+     --font-black: #161616;
+
+     --footer-color: #161616;
+}
+body {
+     font-family: "Montserrat", sans-serif;
+     width: 100%;
+
+     .container {
+          padding: 10px 0;
+     }
+
+     .row {
+          margin: 0;
+     }
+}
+
+/* ===== Scrollbar CSS ===== */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+     width: 11px;
+}
+
+*::-webkit-scrollbar-track {
+     background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+     background-color: #dedede;
+     border-radius: 13px;
+     border: 3px solid #ffffff;
+}
