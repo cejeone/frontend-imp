@@ -12232,6 +12232,9 @@ body .row {
   font-size: 12px;
   line-height: 15px;
 }
+.service .box.box-product {
+  border: 2px solid var(--primary-color);
+}
 .service .box:hover {
   transform: translateY(-5px) scale(1.005) translateZ(0);
   box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
@@ -15274,7 +15277,7 @@ ul.profile-about-list li.profile-about-list-buttons {
 
 .navbar-imp {
   z-index: 4;
-  padding: 5px 0;
+  padding: 5px 5px;
 }
 .navbar-imp .offcanvas.show .bg-grey {
   display: none;
