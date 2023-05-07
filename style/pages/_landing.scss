@@ -191,6 +191,10 @@
 
           &.box-product {
                border: 2px solid var(--primary-color);
+
+               .pp {
+                    color: var(--primary-color);
+               }
           }
 
           &:hover {
@@ -201,6 +205,10 @@
                i {
                     color: var(--font-white);
                     font-size: 80;
+               }
+
+               .pp {
+                    color: var(--font-white);
                }
           }
      }
